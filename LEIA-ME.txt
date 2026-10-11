@@ -1,0 +1,21 @@
+DIGITAL CONTROL — PWA
+
+ESTE PACOTE
+- index.html: seu site, adaptado com nome e configuração para instalação.
+- manifest.webmanifest: nome, cores, ícones e modo de aplicativo.
+- service-worker.js: cache básico para abrir após a primeira visita.
+- icon-*.png: ícones Android.
+
+IMPORTANTE
+O site precisa ser hospedado em HTTPS para que a instalação PWA funcione corretamente. Um arquivo HTML aberto por file:// não pode ser instalado como PWA.
+
+HOSPEDAGEM GRATUITA (GitHub Pages)
+1. Entre em https://github.com e crie uma conta, se precisar.
+2. Crie um repositório público chamado digital-control.
+3. Envie TODOS os arquivos desta pasta para a raiz do repositório.
+4. Abra Settings > Pages. Em Build and deployment, escolha Deploy from a branch, selecione main e /(root), e salve.
+5. Aguarde a publicação. O endereço ficará parecido com https://SEU-USUARIO.github.io/digital-control/
+6. Abra esse endereço no Chrome do Android. Toque em ⋮ > Instalar app (ou Adicionar à tela inicial).
+
+DADOS
+O site salva registros no localStorage do navegador. Os dados existentes no PC não são transferidos automaticamente ao celular. Este app registra manualmente sessões selecionadas; não lê automaticamente o uso real dos outros aplicativos do Android.
